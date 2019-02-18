@@ -38,14 +38,16 @@
  	position: absolute;
  	transform: translateY(300%);
  	}
-
+.input-parent:hover label {
+	transform: translateY(0%);
+}
  
 /*---------------------------------------------*/
  .submit-style {
   	margin-top: 3em;
   	height: 3em;
   	width: 100%;
-  	/*border-radius: 0;*/
+  	border-radius: 0;
   	border: none;
 	font-family: 'Karla';
 	font-size: 1em;

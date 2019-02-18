@@ -36,12 +36,23 @@
 
  .label-form {
  	position: absolute;
- 	transform: translateY(300%);
+ 	transform: translateY(-450%)
  	}
-.input-parent:hover label {
-	transform: translateY(0%);
-}
- 
+
+.input-style:empty ~ .label-form{
+ 	transform: translateY(-200%);
+ }
+
+.input-style:focus ~ .label-form{
+ 	 position: absolute;
+ 	 transform: translateY(-450%);
+ 	}
+
+ .input-style:valid	 ~ .label-form{
+ 	 position: absolute;
+ 	 transform: translateY(-450%);
+ 	}
+
 /*---------------------------------------------*/
  .submit-style {
   	margin-top: 3em;

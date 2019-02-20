@@ -29,28 +29,30 @@
  	margin-top: 15px;
  }
 /*---------------------------------------------*/
- .input-parent {
+.input-parent {
  	position: relative;
  	color: #9e9e9e;
- }
+ 	}
 
- .label-form {
+.label-form {
  	position: absolute;
- 	transform: translateY(-450%)
+ 	transform: translateY(-4.5em);
+ 	left: 0;
+ 	bottom: -1em;
  	}
 
 .input-style:empty ~ .label-form{
- 	transform: translateY(-200%);
- }
+ 	transform: translateY(-1.5em);
+	}
 
 .input-style:focus ~ .label-form{
  	 position: absolute;
- 	 transform: translateY(-450%);
+ 	 transform: translateY(-4.5em);
  	}
 
- .input-style:valid	 ~ .label-form{
+.input-style:valid	 ~ .label-form{
  	 position: absolute;
- 	 transform: translateY(-450%);
+ 	 transform: translateY(-4.5em);
  	}
 
 /*---------------------------------------------*/
